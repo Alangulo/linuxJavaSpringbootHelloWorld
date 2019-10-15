@@ -11,4 +11,11 @@ public class HelloController {
         return "Greetings from Spring Boot!";
     }
     
+    
+    @GetMapping("/employees")
+    public String newEmployee() {
+    return "Your GET went through!!";
+  }
+    
+    
 }
